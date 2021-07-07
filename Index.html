@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4i LAB IIT Guwahati</title>
+	<link rel="icon" href="img/favicon.png" type="image/png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+  <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="wrapper container-fluid">
+        <div class="logo">
+            <img id="logo_img" src="img/4ilogo.png" alt="4i Lab">
+        </div>
+<div class="head__1 fixed-top">
+    <ul class="nav-area  right" id="nav-area ">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Gallery</a></li>
+          <li><a href="#">Projects</a></li>
+      <li><a href="#">Team</a></li>
+    </ul>
+</div>
+
+
+
+    </div>
+    <div class="welcome-text">
+        <h1 id='wname'> <span>4i</span>  LAB</h1>
+		<p id='tagline'>Promoting Technology, Creativity and Innovation</p>
+
+		<a href="#learn-more" class="more scrolly">Learn More</a>
+    </div>
+  </header>
+
+</body>
+</html>
+<script>
+
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+
+        $(window).scroll(function() {
+    if ($(this).scrollTop() > 50 ) {
+        $('.scrolltop:hidden').stop(true, true).fadeIn();
+    } else {
+        $('.scrolltop').stop(true, true).fadeOut();
+    }
+});
+$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".top").offset().top},"1000");return false})})
+    </script>
