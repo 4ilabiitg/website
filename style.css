@@ -133,3 +133,180 @@ margin-right: 50px;
 align-items:flex-start;
 
 }
+
+
+
+.m1{
+	display: flex;
+  flex-direction: row;
+	padding-top:20px;
+
+}
+.m__left{
+	padding-bottom: 10rem;
+	padding-left:  100px;
+	width: 150%;
+	align-items: center;
+	align-content:space-between;
+
+}
+.abt__us{
+	align-items: center;
+	padding-left: 100px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.abt__us__content{
+	padding-right: 50px;
+	padding-left:50px;
+		margin-right: 50px;
+}
+.m__right{
+	margin-right: 50px;
+	/*padding-right:  50px;*/
+	width: 100%;
+
+}
+
+.image-r{
+	text-align: center;
+	padding-left: 200px;
+}
+
+.fancy {
+  line-height: 0.45;
+  text-align: center;
+	padding-top:20px;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #4aedea;
+  border-top: 1px solid #4aedea;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 10px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 10px;
+}
+
+
+.header {
+	background-color: #f1f1f1;
+	padding: 30px;
+	text-align: center;
+  }
+
+  #navbar {
+	overflow: hidden;
+	background-color: #333;
+  }
+
+  #navbar a {
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+
+  #navbar a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+  #navbar a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+
+  .content {
+	padding: 16px;
+  }
+
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+
+  .sticky + .content {
+	padding-top: 60px;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  #wname{
+	font-family: 'Anton', sans-serif , monospace;
+	/*text-transform: lowercase;*/
+
+  }
+  #tagline{
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	color: rgb(212, 212, 212);
+  }
+
+
+.x-colophon.bottom .x-colophon-content {
+    margin: 20px 20px;
+    letter-spacing: 1px;
+    opacity: 1;
+		text-align: center;
+}
+
+
+.head__1{
+padding-right: 50px;
+}
+.page-footer{
+	background-color:#111111;
+}
+.container{
+padding-bottom: -100px;
+height: 80px;
+}
+
+.project-display{
+	margin:10px;
+	padding:20px;
+}
+
+.scrolltop {
+  position: fixed;
+  bottom: 70px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: none;
+}
+.scrolltop .icon {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  transform: translate(0%, -17.5%);
+  margin-top: 10px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
