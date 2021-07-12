@@ -5,13 +5,13 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	color:white;
-	background-color:#032126;
+	background-color:#191919;
 }
 .wrapper {
 	width: 1170px;
 	margin: auto;
 }
-header {
+.front-page-header {
 	/*background: linear-gradient(rgba(107, 122, 192, 0.8), rgba(0, 0, 0, 0.8));*/
     background-image: url(./img/fpg.jpg);
 	height: 100vh !important;
@@ -44,6 +44,7 @@ header {
 .logo {
 	float: left;
 	padding-right: 60px !important;
+	padding-left: 2rem;
 }
 .logo img {
 	width: 50%;
@@ -57,6 +58,13 @@ header {
 	height: 300px;
 	margin: 20% 30%;
 	text-align: center;
+	font-size:2rem;
+}
+.tagline-color1{
+	color: #000000;
+	font-size:20px;
+	font-weight: bold;
+	
 }
 .welcome-text h1 {
 	text-align: center;
@@ -65,7 +73,7 @@ header {
 	font-size: 60px;
 }
 .welcome-text h1 span {
-	color: #ffffff;
+	color: #fff;
 }
 .welcome-text a {
 	border: 1px solid rgb(255, 255, 255);
@@ -134,16 +142,13 @@ align-items:flex-start;
 
 }
 
-
-
 .m1{
 	display: flex;
   flex-direction: row;
-	padding-top:20px;
+	padding-top:50px;
 
 }
 .m__left{
-	padding-bottom: 10rem;
 	padding-left:  100px;
 	width: 150%;
 	align-items: center;
@@ -151,55 +156,21 @@ align-items:flex-start;
 
 }
 .abt__us{
-	align-items: center;
-	padding-left: 100px;
-	padding-bottom: 25px;
+	padding-top: 95px;
 	text-align: center;
 }
 .abt__us__content{
 	padding-right: 50px;
 	padding-left:50px;
-		margin-right: 50px;
 }
 .m__right{
-	margin-right: 50px;
-	/*padding-right:  50px;*/
+	padding-right:  50px;
 	width: 100%;
 
 }
 
-.image-r{
-	text-align: center;
-	padding-left: 200px;
-}
 
-.fancy {
-  line-height: 0.45;
-  text-align: center;
-	padding-top:20px;
-}
-.fancy span {
-  display: inline-block;
-  position: relative;
-}
-.fancy span:before,
-.fancy span:after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 1px solid #4aedea;
-  border-top: 1px solid #4aedea;
-  top: 0;
-  width: 600px;
-}
-.fancy span:before {
-  right: 100%;
-  margin-right: 10px;
-}
-.fancy span:after {
-  left: 100%;
-  margin-left: 10px;
-}
+
 
 
 .header {
@@ -268,45 +239,244 @@ align-items:flex-start;
 		text-align: center;
 }
 
-
+.foot1{
+	display:flex;
+	flex-direction: row;
+	width:100%;
+	color:wheat;
+}
 .head__1{
 padding-right: 50px;
 }
-.page-footer{
-	background-color:#111111;
-}
-.container{
-padding-bottom: -100px;
-height: 80px;
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+/* Footer */
+
+#footer {
+	padding: 6em 0 4em 0 ;
+	background-color: #1d242a;
+	text-align: center;
 }
 
-.project-display{
-	margin:10px;
-	padding:20px;
+	#footer .icons {
+		font-size: 1.25em;
+	}
+
+		#footer .icons a {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+			#footer .icons a:hover {
+				color: #fff;
+			}
+
+	#footer .copyright {
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 0.8em;
+		letter-spacing: 0.225em;
+		list-style: none;
+		padding: 0;
+		text-transform: uppercase;
+	}
+
+		#footer .copyright li {
+			border-left: solid 1px rgba(255, 255, 255, 0.5);
+			display: inline-block;
+			line-height: 1em;
+			margin-left: 1em;
+			padding-left: 1em;
+		}
+
+			#footer .copyright li:first-child {
+				border-left: 0;
+				margin-left: 0;
+				padding-left: 0;
+			}
+
+			#footer .copyright li a {
+				color: inherit;
+			}
+
+				#footer .copyright li a:hover {
+					color: #fff;
+				}
+
+			@media screen and (max-width: 480px) {
+
+				#footer .copyright li {
+					border: 0;
+					display: block;
+					line-height: 1.65em;
+					margin: 0;
+					padding: 0.5em 0;
+				}
+
+			}
+
+	@media screen and (max-width: 980px) {
+
+		#footer {
+			padding: 4em 3em 2em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#footer {
+			padding: 3em 2em 1em 2em ;
+		}
+
+	}
+/* Icons */
+
+ul.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
 }
 
-.scrolltop {
-  position: fixed;
-  bottom: 70px;
-  right: 40px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #fff;
-  display: none;
+	ul.icons li {
+		display: inline-block;
+		padding: 0 1em 0 0;
+	}
+
+		ul.icons li:last-child {
+			padding-right: 0 !important;
+		}
+
+	ul.icons.major {
+		padding: 1em 0;
+	}
+
+		ul.icons.major li {
+			padding-right: 3.5em;
+		}
+
+			@media screen and (max-width: 736px) {
+
+				ul.icons.major li {
+					padding: 0 1em !important;
+				}
+
+			}
+/* Icon */
+
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
 }
-.scrolltop .icon {
-  font-size: 30px;
-  text-align: center;
-  padding-bottom: 20px;
-  transform: translate(0%, -17.5%);
-  margin-top: 10px;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
+
+	.icon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		line-height: 1;
+		text-transform: none !important;
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 400;
+	}
+
+	.icon > .label {
+		display: none;
+	}
+
+	.icon:before {
+		line-height: inherit;
+	}
+
+	.icon.solid:before {
+		font-weight: 900;
+	}
+
+	.icon.brands:before {
+		font-family: 'Font Awesome 5 Brands';
+	}
+
+	.icon.major {
+		-moz-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		border-radius: 3px;
+		border: solid 2px #fff;
+		display: inline-block;
+		font-size: 1.35em;
+		height: calc(3em + 2px);
+		line-height: 3em;
+		text-align: center;
+		width: calc(3em + 2px);
+	}
+
+		.icon.major:before {
+			-moz-transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+			display: inline-block;
+			font-size: 1.5em;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.icon.major {
+				font-size: 1em;
+			}
+
+		}
+
+	.icon.style1 {
+		color: #00ffcc;
+	}
+
+	.icon.style2 {
+		color: #00f0ff;
+	}
+
+	.icon.style3 {
+		color: #76ddff;
+	}
+	.scrolltop .icon {
+		font-size: 30px;
+		text-align: center;
+		padding-bottom: 20px;
+		transform: translate(0%, -17.5%);
+		margin-top: 10px;
+	  }
+	  
+	  .scrolltop {
+		position: fixed;
+		bottom: 70px;
+		right: 40px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background-color: #fff;
+		display: none;
+	  }
+	  .page-footer{
+		  background-color: #03ddff;
+	  }
+	  .social-parent{
+		  padding-top: 8rem !important;
+	  }
+	  .embed-responsive-item{
+		  transform: translateY(-100px);
+		  padding-left: 6rem;
+	  }
+	  .heading-text{
+		  padding-bottom: 4rem;
+	  }
+	  .footer-copyright{
+		  color: black;
+	  }
+	  .project-display{
+		  margin-bottom: 2rem;
+	  }
+
+	  
