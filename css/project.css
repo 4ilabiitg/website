@@ -1,0 +1,73 @@
+.antahsagri-image{
+    height: 60%;
+    width: 100%;
+}
+.div-project-video{
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.project-video{
+    width:50% ;
+    height:500px ;
+    margin: 0 auto;
+    display:block;
+    
+
+}
+.out{
+    border-style: ridge;
+    margin: 2rem;
+    border-color:#1021e3;
+    background-color: #a9d9d6;
+    color: black;
+}
+.project-image{
+    height: 30%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading-antahsagri{
+    transform: translateX(-90px) !important;
+    transform: translateY(30px);
+    padding-top: 8rem !important;
+}
+.spacing{
+  text-align: center;
+  padding-bottom: 2rem;  
+}
+.about-paragraph{
+    text-indent: 5px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    text-align: center;
+    margin-left:35px;
+    margin-right:35px
+
+}
+.about-li{
+    text-indent: 5px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    margin-left:8rem;
+    margin-right:6rem
+}
+.heading-arle{
+    padding-top: 8rem;
+}
+.heading-inndrone{
+    padding-top: 8rem;
+    transform: translateX(-40px);
+}
+.heading-raman{
+    padding-top: 8rem;
+    transform: translateX(-40px);
+}
+.heading-nucleus{
+    padding-top: 8rem;
+    transform: translateX(-40px);
+}
