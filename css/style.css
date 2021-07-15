@@ -460,7 +460,7 @@ ul.icons {
 		display: none;
 	  }
 	  .page-footer{
-		  background-color: #03ddff;
+		  background-color: black;
 	  }
 	  .social-parent{
 		  padding-top: 8rem !important;
@@ -473,7 +473,7 @@ ul.icons {
 		  padding-bottom: 4rem;
 	  }
 	  .footer-copyright{
-		  color: black;
+		  color: whitesmoke;
 	  }
 	  .project-display{
 		  margin-bottom: 2rem;
