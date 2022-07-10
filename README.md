@@ -15,16 +15,17 @@ The four I’s stand for
 
 ## PROJECTS
 
-- ARLE
 - ANTAHSAGARI
-- InNDRONE
-- NUCLEUS
+- INNDRONE
+- MITRA
 - RAMAN
 
 
 ## Team
 
-- [Ayush Raj](https://www.linkedin.com/in/ayushraj159/) 
-- [Kautilya Pandey](https://www.linkedin.com/in/kautilya-pandey-880b13197/)
-- [Nikhitha Mekala](https://www.linkedin.com/in/nikhitha-mekala-530867196/)
-- [Piyanshu Jain](https://www.linkedin.com/in/piyanshu-jain-2a2a19196/)
+- [Shashank Kumar Ranjan](https://www.linkedin.com/in/shashank-ranjan-b341691bb/) 
+- [Khushi Agarwal](https://www.linkedin.com/in/khushi-agarwal-386252214/)
+- [Joshith Gubbala](https://www.linkedin.com/in/joshith-murthy-58159a201/)
+- [Roshan Kumar](https://www.linkedin.com/in/roshan-kumar-01/)
+- [Saurabh Kumar](https://www.linkedin.com/in/saurabh-kumar-72a0ab206/)
+- [Himanshu Upadhyay]()
