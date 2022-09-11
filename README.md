@@ -23,7 +23,7 @@ The four I’s stand for
 
 ## Team
 
-- Ayush Raj
-- Kautilya Panday
-- Nikitha Manchela
-- Piyanshu
+- AYUSH RAJ
+- KAUTILYA PANDEY
+- NIKHITHA MEKALA
+- PIYANSHU JAIN
